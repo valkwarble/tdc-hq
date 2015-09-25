@@ -1,5 +1,5 @@
 # tdc-hq
-Theta Delta Chi- Theta Deuteron Head Quaters 
+Theta Delta Chi- Theta Deuteron Head Quarters 
 GETTING STARTED:
 launching the site in six easy steps
 $ curl https://install.meteor.com/ |sh

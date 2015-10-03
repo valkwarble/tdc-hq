@@ -8,4 +8,7 @@ $ git clone https://github.com/valkwarble/tdc-hq.git // get a github account
 $ cd tdc-hq-meteor
 $ meteor
 
+if you have windows follow the intructions here :
+https://www.meteor.com/install
+
 Purity.Loyalty.Secrecy

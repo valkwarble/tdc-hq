@@ -18,6 +18,14 @@ if (Meteor.isClient) {
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
+    Tasks = new Mongo.Collection("posts");
     // code to run on server at startup
   });
+  Meteor.methods({
+    bar: function () {
+      Tasks.remove({ title:'Entry'});
+      return "baz";
+    }
+  });
 }
+

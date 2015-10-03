@@ -4,12 +4,24 @@
 We are gentlemen, scholars and family. We strive to be a strong leaders and a loyal followers.
 
 Speak your mind honestly and keep closely the minds of others. Do what you love and love what you do.
-
-
 {{/markdown}}
+
+{{#each postsList}}
+  {{> postInListTemplate}}
+{{/each}}
 {{#markdown}}
 Purity.Loyalty.Secrecy
 
 {{/markdown}}
+
+<form class="new-task">
+        <input type="text" name="text" placeholder="Type to add new tasks" />
+</form>
+<form class="reset">
+        <input type="text" name="text" placeholder="Type Reset to reset" />
+</form>
 {{{exampleHelper}}}
+{{>contextExample dataContextHelper}}
+
+
 </template>

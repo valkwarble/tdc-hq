@@ -1,0 +1,15 @@
+<template name= "contextExample">
+  <p>{{someText}}</p>
+</template>
+
+<template name="blockHelperExample">
+  <div>
+    <h1>Block Helper</h1>
+    {{#if this}}
+      <p>Content goes here: {{> Template.contentBlock}}</p>
+    {{else}}
+      <p>Else content here: {{> Template.elseBlock}}</p>
+    {{/if}}
+  </div>
+</template>
+   
